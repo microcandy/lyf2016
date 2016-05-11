@@ -1,0 +1,82 @@
+[
+    {
+        "text": "____，可以为师矣。",
+        "answer": "温故而知新"
+    },
+    {
+        "text": "__，我所欲也；熊掌，亦我所欲也。",
+        "answer": "鱼"
+    },
+    {
+        "text": "___，必有我师焉；择其善者而从之，其不善者而改之。",
+        "answer": "三人行"
+    },
+    {
+        "text": "________，好之者不如乐之者。",
+        "answer": "知之者不如好之者"
+    },
+    {
+        "text": "________，临表涕零，不知所言。",
+        "answer": "今当远离"
+    },
+    {
+        "text": "林尽水源，便得一山，山有小口，_____。",
+        "answer": "仿佛若有光"
+    },
+    {
+        "text": "____，然后有千里马。",
+        "answer": "世有伯乐"
+    },
+    {
+        "text": "客路青山下，行舟绿水前。潮平两岸阔，风正一帆悬。海日生残夜，江春入旧年。_____，归雁洛阳边。",
+        "answer": "乡书何处达"
+    },
+    {
+        "text": "______，闻道龙标过五溪。我寄愁心与明月，随风直到夜郎西。",
+        "answer": "杨花落尽子规啼"
+    },
+    {
+        "text": "______，夜泊秦淮近酒家。商女不知亡国恨，隔江犹唱《后庭花》",
+        "answer": "烟笼寒水月笼沙"
+    },
+    {
+        "text": "______，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时",
+        "answer": "君问归期未有期"
+    },
+    {
+        "text": "枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，_____",
+        "answer": "断肠人在天涯"
+    },
+    {
+        "text": "Never point __ gun at someone, even in fun,as it might be loaded.",
+        "answer": "a"
+    },
+    {
+        "text": "Please erase my name ____ the list.",
+        "answer": "from"
+    },
+    {
+        "text": "The order was no ____ effective.",
+        "answer": "longer"
+    },
+    {
+        "text": "A ____ drifted by and covered the moon.",
+        "answer": "cloud"
+    },
+    {
+        "text": "The sun ____ upon the river.",
+        "answer": "shines"
+    },
+    {
+        "text": "I have just ___ question.",
+        "answer": "one"
+    },
+    {
+        "text": "Shall I ___ the window? —Yes,do.",
+        "answer": "open"
+    },
+    {
+        "text": "Only Jesus can ____ you.",
+        "answer": "save"
+    }
+]

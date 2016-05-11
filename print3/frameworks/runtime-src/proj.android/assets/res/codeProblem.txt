@@ -1,0 +1,164 @@
+[
+    {
+        "title": "得分范围约束器",
+        "resulttext": "分数： 1",
+        "text": [
+            "给定一个整型",
+            "确保它可以表示某个百分制课程的得分",
+            "所缺代码做的工作应该是",
+            "if arg < 0 then arg = 0 end",
+            "if arg > 100 then arg = 100 end",
+            "-----------------------"
+        ],
+        "code": [
+            " function myCode(arg)",
+            "     return ",
+            " end"
+        ],
+        "addedCodeLine": 2,
+        "tests": [
+            -60,
+            -1,
+            0,
+            1,
+            2,
+            5,
+            10,
+            24,
+            59,
+            60,
+            61,
+            80,
+            99,
+            100,
+            101,
+            998,
+            1999,
+            2016
+        ],
+        "check": [
+            " function myCheck(input, res)",
+            "     if math.max(0, math.min(100, input)) ~= res then",
+            "         return false",
+            "     else",
+            "         return true",
+            "     end",
+            " end"
+        ]
+    },
+    {
+        "title": "取整数部分",
+        "resulttext": "分数： 1",
+        "text": [
+            "给定一个正浮点数",
+            "返回这个正浮点数的整数部分",
+            "-----------------------"
+        ],
+        "code": [
+            " function myCode(arg)",
+            "     return ",
+            " end"
+        ],
+        "addedCodeLine": 2,
+        "tests": [
+            1.5,
+            2.22,
+            3.14,
+            10.01,
+            999.999
+        ],
+        "check": [
+            " function myCheck(input, res)",
+            "     if input - input % 1 ~= res then",
+            "         return false",
+            "     else",
+            "         return true",
+            "     end",
+            " end"
+        ]
+    },
+    {
+        "title": "取小数部分",
+        "resulttext": "分数： 1",
+        "text": [
+            "给定一个正浮点数",
+            "返回这个正浮点数的小数部分",
+            "-----------------------"
+        ],
+        "code": [
+            " function myCode(arg)",
+            "     return ",
+            " end"
+        ],
+        "addedCodeLine": 2,
+        "tests": [
+            1.5,
+            2.22,
+            3.14,
+            10.01,
+            999.999
+        ],
+        "check": [
+            " function myCheck(input, res)",
+            "     if input % 1 ~= res then",
+            "         return false",
+            "     else",
+            "         return true",
+            "     end",
+            " end"
+        ]
+    },
+    {
+        "title": "头文字",
+        "resulttext": "分数： 1",
+        "text": [
+            "给一个string",
+            "返回它的首字母",
+            "返回类型为string",
+            "-----------------------"
+        ],
+        "code": [
+            " function myCode(arg)",
+            "     return ",
+            " end"
+        ],
+        "addedCodeLine": 2,
+        "tests": [
+            "apple",
+            "banana",
+            "China",
+            "dog",
+            "eat",
+            "fairy",
+            "gmail",
+            "hot",
+            "if",
+            "java",
+            "king",
+            "Lua",
+            "moon",
+            "not",
+            "oc",
+            "Perl",
+            "QQ",
+            "Ruby",
+            "Swift",
+            "title",
+            "UFO",
+            "VIP",
+            "wait",
+            "xml",
+            "yii",
+            "zoo"
+        ],
+        "check": [
+            " function myCheck(input, res)",
+            "     if string.char(string.byte(input, 1)) ~= res then",
+            "         return false",
+            "     else",
+            "         return true",
+            "     end",
+            " end"
+        ]
+    }
+]

@@ -1,0 +1,122 @@
+﻿[
+    {
+        "text": "下列选项中，哪个不属于唐宋八大家",
+        "A": "苏轼",
+        "B": "欧阳修",
+        "C": "李白",
+        "D": "王安石",
+        "answer": "C"
+    },
+    {
+        "text": "下列选项中，哪个不属于直辖市",
+        "A": "北京",
+        "B": "上海",
+        "C": "重庆",
+        "D": "昆明",
+        "answer": "D"
+    },
+    {
+        "text": "下列选项中，哪个不属于李白的作品",
+        "A": "将进酒",
+        "B": "望庐山瀑布",
+        "C": "行路难",
+        "D": "赤壁赋",
+        "answer": "D"
+    },
+    {
+        "text": "下列选项中，哪个不属于苏轼的作品",
+        "A": "将进酒",
+        "B": "题西林壁",
+        "C": "惠崇春江晚景",
+        "D": "赤壁赋",
+        "answer": "A"
+    },
+    {
+        "text": "下列选项中，哪个是苏轼的号",
+        "A": "青莲居士",
+        "B": "东坡居士",
+        "C": "药愚居士",
+        "D": "六一居士",
+        "answer": "B"
+    },
+    {
+        "text": "香山居士是谁的号",
+        "A": "香山",
+        "B": "白居易",
+        "C": "李白",
+        "D": "辛弃疾",
+        "answer": "B"
+    },
+    {
+        "text": "下列哪个选项不属于四书",
+        "A": "论语",
+        "B": "春秋",
+        "C": "孟子",
+        "D": "中庸",
+        "answer": "B"
+    },
+    {
+        "text": "四史比三史多了那一项",
+        "A": "史记",
+        "B": "汉书",
+        "C": "后汉书",
+        "D": "三国志",
+        "answer": "D"
+    },
+    {
+        "text": "哪一项不属于激流三部曲",
+        "A": "家",
+        "B": "春",
+        "C": "夏",
+        "D": "秋",
+        "answer": "C"
+    },
+    {
+        "text": "哪一项不属于爱情三部曲",
+        "A": "雾",
+        "B": "雨",
+        "C": "雪",
+        "D": "电",
+        "answer": "C"
+    },
+    {
+        "text": "____ us some pointers on how to do the job.",
+        "A": "Give",
+        "B": "Put",
+        "C": "Let",
+        "D": "Say",
+        "answer": "A"
+    },
+    {
+        "text": "The data can then pass from one __ the other.",
+        "A": "to",
+        "B": "over",
+        "C": "above",
+        "D": "pass",
+        "answer": "A"
+    },
+    {
+        "text": "You can do this on your test __.",
+        "A": "yet",
+        "B": "too",
+        "C": "now",
+        "D": "again",
+        "answer": "B"
+    },
+    {
+        "text": "Look it ___ in the map.",
+        "A": "out",
+        "B": "clear",
+        "C": "up",
+        "D": "down",
+        "answer": "A"
+    },
+    {
+        "text": "He transferred his son to ____ school.",
+        "A": "a",
+        "B": "another",
+        "C": "other",
+        "D": "the",
+        "answer": "B"
+    }
+]

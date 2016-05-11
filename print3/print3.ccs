@@ -1,0 +1,47 @@
+<Solution>
+  <PropertyGroup Name="print3" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="Arbeit.BtReward.mouseOver.0.png" />
+        <Image Name="Arbeit.BtReward.normal.0.png" />
+        <Image Name="bar.png" />
+        <Image Name="black.png" />
+        <Image Name="blackBtn.png" />
+        <Image Name="blackPad.png" />
+        <Image Name="boy0.png" />
+        <Image Name="brownBtn1.png" />
+        <Image Name="brownBtn2.png" />
+        <Image Name="btnNext1.png" />
+        <Image Name="btnSure1.png" />
+        <Image Name="dorm.png" />
+        <Image Name="eventPad.png" />
+        <Image Name="FadeYesNo.backgrnd8.png" />
+        <Image Name="finalClass.png" />
+        <Image Name="girl0.png" />
+        <Image Name="hospitalClass.png" />
+        <Image Name="labClass.png" />
+        <Image Name="left.png" />
+        <Image Name="libClass.png" />
+        <Image Name="mainButton.png" />
+        <Image Name="mainMenuBG.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="musicClass.png" />
+        <Image Name="no1.png" />
+        <Image Name="no2.png" />
+        <Image Name="no3.png" />
+        <Image Name="pinkBtn1.png" />
+        <Image Name="pinkBtn2.png" />
+        <Image Name="Radio.Off.0.png" />
+        <Image Name="Radio.On.0.png" />
+        <Image Name="right.png" />
+        <Image Name="roomClass.png" />
+        <Image Name="roomOutClass.png" />
+        <Image Name="subTitlePad.png" />
+        <Image Name="worldBG.png" />
+        <Image Name="worldBGbutton.png" />
+        <Image Name="worldBGbuttonClick.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

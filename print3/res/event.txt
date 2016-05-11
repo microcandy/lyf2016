@@ -1,0 +1,436 @@
+﻿[
+    {
+        "name": "遇到校花",
+        "npc": "xiaohua0",
+        "plistitem": "move.",
+        "plistmax": 5,
+        "dialog": {
+            "before": [
+                {
+                    "who": "npc",
+                    "text": "看到校花迎面走来"
+                },
+                {
+                    "who": "self",
+                    "text": "要向校花打招呼吗？",
+                    "btn": {
+                        "是的": "afterYes",
+                        "不要": "afterNo"
+                    }
+                }
+            ],
+            "afterYes": [
+                {
+                    "who": "self",
+                    "text": "hi，这位同学，早上好~"
+                },
+                {
+                    "who": "npc",
+                    "text": "..."
+                },
+                {
+                    "who": "npc",
+                    "text": "校花面带微笑回应你的问好"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：1；经验值：1"
+                }
+            ],
+            "afterNo": [
+                {
+                    "who": "self",
+                    "text": "假装蹲在地上数蚂蚁"
+                },
+                {
+                    "who": "npc",
+                    "text": "......"
+                },
+                {
+                    "who": "npc",
+                    "text": "校花觉得这个人有问题，决定加速离开"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：-1；经验值：1"
+                }
+            ]
+        },
+        "result": {
+            "afterYes": {
+                "popular": 1,
+                "exp": 1
+            },
+            "afterNo": {
+                "popular": -1,
+                "exp": 1
+            }
+        }
+    },
+    {
+        "name": "遇到老师",
+        "npc": "teacher0",
+        "plistitem": "move.",
+        "plistmax": 5,
+        "dialog": {
+            "before": [
+                {
+                    "who": "npc",
+                    "text": "看到老师迎面走来"
+                },
+                {
+                    "who": "self",
+                    "text": "要向老师打招呼吗？",
+                    "btn": {
+                        "是的": "afterYes",
+                        "不要": "afterNo"
+                    }
+                }
+            ],
+            "afterYes": [
+                {
+                    "who": "self",
+                    "text": "老师，早上好~"
+                },
+                {
+                    "who": "npc",
+                    "text": "早"
+                },
+                {
+                    "who": "npc",
+                    "text": "老师面带微笑回应你的问好"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：1；经验值：1"
+                }
+            ],
+            "afterNo": [
+                {
+                    "who": "self",
+                    "text": "假装蹲在地上数蚂蚁"
+                },
+                {
+                    "who": "npc",
+                    "text": "......"
+                },
+                {
+                    "who": "npc",
+                    "text": "老师往这边瞥了一眼，若有所思地离开了"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：-1；经验值：1"
+                }
+            ]
+        },
+        "result": {
+            "afterYes": {
+                "popular": 1,
+                "exp": 1
+            },
+            "afterNo": {
+                "popular": -1,
+                "exp": 1
+            }
+        }
+    },
+    {
+        "name": "遇到老教授",
+        "npc": "teacher1",
+        "plistitem": "move.",
+        "plistmax": 5,
+        "dialog": {
+            "before": [
+                {
+                    "who": "npc",
+                    "text": "看到老教授迎面走来"
+                },
+                {
+                    "who": "self",
+                    "text": "要向老教授打招呼吗？",
+                    "btn": {
+                        "是的": "afterYes",
+                        "不要": "afterNo"
+                    }
+                }
+            ],
+            "afterYes": [
+                {
+                    "who": "self",
+                    "text": "老师好~"
+                },
+                {
+                    "who": "npc",
+                    "text": "嗯，好"
+                },
+                {
+                    "who": "npc",
+                    "text": "老教授点头以示回应"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：1；经验值：1"
+                }
+            ],
+            "afterNo": [
+                {
+                    "who": "self",
+                    "text": "掏出手机假装查看时政要闻"
+                },
+                {
+                    "who": "npc",
+                    "text": "......"
+                },
+                {
+                    "who": "self",
+                    "text": "与老教授擦肩而过"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：-1；经验值：1"
+                }
+            ]
+        },
+        "result": {
+            "afterYes": {
+                "popular": 1,
+                "exp": 1
+            },
+            "afterNo": {
+                "popular": -1,
+                "exp": 1
+            }
+        }
+    },
+    {
+        "name": "遇到外星人",
+        "npc": "alien0",
+        "plistitem": "walk.",
+        "plistmax": 3,
+        "dialog": {
+            "before": [
+                {
+                    "who": "npc",
+                    "text": "遇到了不明生物"
+                },
+                {
+                    "who": "self",
+                    "text": "怎么办？打个招呼？",
+                    "btn": {
+                        "left": "afterYes",
+                        "right": "afterNo"
+                    }
+                }
+            ],
+            "afterYes": [
+                {
+                    "who": "self",
+                    "text": "用什么方式打招呼呢？"
+                },
+                {
+                    "who": "self",
+                    "text": "深思熟路决定用英语打招呼"
+                },
+                {
+                    "who": "self",
+                    "text": "Hello!"
+                },
+                {
+                    "who": "npc",
+                    "text": "外星人没什么反应"
+                },
+                {
+                    "who": "self",
+                    "text": "经验值：1"
+                }
+            ],
+            "afterNo": [
+                {
+                    "who": "self",
+                    "text": "掉头就跑"
+                },
+                {
+                    "who": "self",
+                    "text": "经验值：1"
+                }
+            ]
+        },
+        "result": {
+            "afterYes": {
+                "exp": 1
+            },
+            "afterNo": {
+                "exp": 1
+            }
+        }
+    },
+    {
+        "name": "遇到校医",
+        "npc": "doctor0",
+        "plistitem": "move.",
+        "plistmax": 5,
+        "dialog": {
+            "before": [
+                {
+                    "who": "npc",
+                    "text": "遇到校医走来"
+                },
+                {
+                    "who": "self",
+                    "text": "脑海里仍是那挥之不去的打针的恐惧"
+                },
+                {
+                    "who": "npc",
+                    "text": "Hi，年轻人，上次给你打针我还记得你，病痊愈了么？"
+                },
+                {
+                    "who": "self",
+                    "text": "要回应她么"
+                    "btn": {
+                        "left": "afterYes",
+                        "right": "afterNo"
+                    }
+                }
+            ],
+            "afterYes": [
+                {
+                    "who": "self",
+                    "text": "完全没问题了，谢谢校医"
+                },
+                {
+                    "who": "self",
+                    "text": "大方地回应"
+                },
+                {
+                    "who": "npc",
+                    "text": "嗯，好好注意身体"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：1；经验值：1"
+                }
+            ],
+            "afterNo": [
+                {
+                    "who": "self",
+                    "text": "呃..不..这个嘛..那个"
+                },
+                {
+                    "who": "npc",
+                    "text": "......"
+                },
+                {
+                    "who": "npc",
+                    "text": "我有这么可怕么..."
+                },
+                {
+                    "who": "npc",
+                    "text": "难道是没化妆..."
+                },
+                {
+                    "who": "npc",
+                    "text": "衣服搭配不合理么..."
+                },
+                {
+                    "who": "npc",
+                    "text": "我这可是白大褂啊..."
+                },
+                {
+                    "who": "npc",
+                    "text": "......"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：-1；经验值：1"
+                }
+            ]
+        },
+        "result": {
+            "afterYes": {
+                "popular": 1,
+                "exp": 1
+            },
+            "afterNo": {
+                "popular": -1,
+                "exp": 1
+            }
+        }
+    },
+    {
+        "name": "血库告急",
+        "npc": "doctor0",
+        "plistitem": "move.",
+        "plistmax": 5,
+        "dialog": {
+            "before": [
+                {
+                    "who": "npc",
+                    "text": "遇到校医走来"
+                },
+                {
+                    "who": "self",
+                    "text": "校医看起来很慌张"
+                },
+                {
+                    "who": "npc",
+                    "text": "这位同学，校医院的血库告急，现在有同学手术需要献血，你愿意来献血么？"
+                },
+                {
+                    "who": "self",
+                    "text": "要去么"
+                    "btn": {
+                        "left": "afterYes",
+                        "right": "afterNo"
+                    }
+                }
+            ],
+            "afterYes": [
+                {
+                    "who": "self",
+                    "text": "完全没问题了，小意思"
+                },
+                {
+                    "who": "npc",
+                    "text": "那真是太好了，我们这就去校医院吧"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：1；经验值：1"
+                }
+            ],
+            "afterNo": [
+                {
+                    "who": "self",
+                    "text": "呃...血这个东西，抽走了总觉得不太好。"
+                },
+                {
+                    "who": "npc",
+                    "text": "......"
+                },
+                {
+                    "who": "npc",
+                    "text": "这样啊..."
+                },
+                {
+                    "who": "npc",
+                    "text": "没关系，我继续去找其他同学"
+                },
+                {
+                    "who": "self",
+                    "text": "人气度：-1；经验值：1"
+                }
+            ]
+        },
+        "result": {
+            "afterYes": {
+                "popular": 1,
+                "exp": 1
+            },
+            "afterNo": {
+                "popular": -1,
+                "exp": 1
+            }
+        }
+    }
+]

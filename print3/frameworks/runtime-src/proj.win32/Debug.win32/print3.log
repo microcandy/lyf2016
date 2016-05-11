@@ -1,0 +1,119 @@
+﻿生成启动时间为 2016/3/20 19:37:32。
+     1>项目“D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\print3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /I"D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\..\Classes" /I"D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\..\Classes\runtime" /I"D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\..\Classes\protobuf-lite" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\external\win32-specific\zlib\include" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\scripting\lua-bindings\auto" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\scripting\lua-bindings\manual" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\audio\include" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\external" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\external\lua\luajit\include" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\external\lua\tolua" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\external\chipmunk\include\chipmunk" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\external\curl\include\win32" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\extensions" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\tools\simulator\libsimulator\lib" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\tools\simulator\libsimulator\lib\protobuf-lite" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\\" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\editor-support" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform\desktop" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\\" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D GLFW_EXPOSE_NATIVE_WIN32 /D GLFW_EXPOSE_NATIVE_WGL /D _USRLUASTATIC /D _USRLIBSIMSTATIC /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /FIalgorithm /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp "..\Classes\ide-support\lua_debugger.c" "..\Classes\ide-support\RuntimeLuaImpl.cpp" main.cpp SimulatorWin.cpp stdafx.cpp
+         AppDelegate.cpp
+         lua_debugger.c
+         RuntimeLuaImpl.cpp
+         main.cpp
+     1>d:\documents\cocos\cocosprojects\print3\frameworks\runtime-src\classes\appdelegate.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SimulatorWin.cpp
+         stdafx.cpp
+     1>d:\documents\cocos\cocosprojects\print3\frameworks\runtime-src\classes\appdelegate.cpp(80): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\documents\cocos\cocosprojects\print3\frameworks\runtime-src\proj.win32\simulatorwin.cpp(397): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\documents\cocos\cocosprojects\print3\frameworks\runtime-src\proj.win32\simulatorwin.cpp(731): warning C4018: “<”: 有符号/无符号不匹配
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /IDebug.win32\ /nologo /fo"Debug.win32\game.res" game.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\print3.exe) does not match the Linker's OutputFile property value (D:\Documents\Cocos\CocosProjects\print3\simulator\win32\print3.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       PreLinkEvent:
+         if not exist "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\Cocos\Cocos2d-x\cocos2d-x-3.10\prebuilt\win32\*.*" "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\../../../simulator/win32/print3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\\" /LIBPATH:"D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\\" libcurl_imp.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\../../../simulator/win32/print3.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\print3.lib" /MACHINE:X86 Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\lua_debugger.obj
+         Debug.win32\RuntimeLuaImpl.obj
+         Debug.win32\main.obj
+         Debug.win32\SimulatorWin.obj
+         Debug.win32\stdafx.obj
+            正在创建库 D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\print3.lib 和对象 D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\print3.exp
+         print3.vcxproj -> D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\print3.exe
+       CustomBuildStep:
+         if not exist "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" mkdir "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy /Y /Q "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\*.dll" "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy /Y /Q "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\..\Classes\ide-support\lang" "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\..\..\..\res" "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\res" /D /E /I /F /Y
+         xcopy "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\..\..\..\src" "D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\src" /D /E /I /F /Y
+         :VCEnd
+         复制了 16 个文件
+         复制了 1 个文件
+         D:\Documents\Cocos\CocosProjects\print3\res\HelloWorld.png -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\res\HelloWorld.png
+         D:\Documents\Cocos\CocosProjects\print3\res\MainScene.csb -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\res\MainScene.csb
+         复制了 2 个文件
+         D:\Documents\Cocos\CocosProjects\print3\src\anysdkConst.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\anysdkConst.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\config.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\config.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\main.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\main.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\app\MyApp.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\app\MyApp.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\app\views\MainScene.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\app\views\MainScene.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\init.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\init.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\3d\3dConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\3d\3dConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\bitExtend.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\bitExtend.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\Cocos2d.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\Cocos2d.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\Cocos2dConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\Cocos2dConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\deprecated.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\deprecated.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\DeprecatedCocos2dClass.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dClass.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\DeprecatedCocos2dEnum.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dEnum.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\DeprecatedCocos2dFunc.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dFunc.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\DeprecatedOpenglEnum.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\DeprecatedOpenglEnum.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\DrawPrimitives.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\DrawPrimitives.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\functions.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\functions.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\json.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\json.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\luaj.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\luaj.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\luaoc.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\luaoc.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\Opengl.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\Opengl.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocos2d\OpenglConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocos2d\OpenglConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocosbuilder\CCBReaderLoad.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocosbuilder\CCBReaderLoad.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocosdenshion\AudioEngine.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocosdenshion\AudioEngine.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocostudio\CocoStudio.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocostudio\CocoStudio.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocostudio\DeprecatedCocoStudioClass.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocostudio\DeprecatedCocoStudioClass.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocostudio\DeprecatedCocoStudioFunc.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocostudio\DeprecatedCocoStudioFunc.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\cocostudio\StudioConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\cocostudio\StudioConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\controller\ControllerConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\controller\ControllerConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\extension\DeprecatedExtensionClass.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\extension\DeprecatedExtensionClass.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\extension\DeprecatedExtensionEnum.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\extension\DeprecatedExtensionEnum.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\extension\DeprecatedExtensionFunc.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\extension\DeprecatedExtensionFunc.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\extension\ExtensionConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\extension\ExtensionConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\audio.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\audio.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\device.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\device.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\display.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\display.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\init.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\init.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\package_support.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\package_support.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\transition.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\transition.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\components\event.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\components\event.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\LayerEx.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\LayerEx.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\MenuEx.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\MenuEx.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\NodeEx.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\NodeEx.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\SpriteEx.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\SpriteEx.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\UICheckBox.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\UICheckBox.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\UIEditBox.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\UIEditBox.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\UIListView.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\UIListView.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\UIPageView.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\UIPageView.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\UIScrollView.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\UIScrollView.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\UISlider.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\UISlider.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\UITextField.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\UITextField.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\framework\extends\UIWidget.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\framework\extends\UIWidget.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\network\DeprecatedNetworkClass.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\network\DeprecatedNetworkClass.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\network\DeprecatedNetworkEnum.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\network\DeprecatedNetworkEnum.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\network\DeprecatedNetworkFunc.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\network\DeprecatedNetworkFunc.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\network\NetworkConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\network\NetworkConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\physics3d\physics3d-constants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\physics3d\physics3d-constants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\spine\SpineConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\spine\SpineConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\ui\DeprecatedUIEnum.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\ui\DeprecatedUIEnum.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\ui\DeprecatedUIFunc.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\ui\DeprecatedUIFunc.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\ui\experimentalUIConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\ui\experimentalUIConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\cocos\ui\GuiConstants.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\cocos\ui\GuiConstants.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\packages\mvc\AppBase.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\packages\mvc\AppBase.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\packages\mvc\init.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\packages\mvc\init.lua
+         D:\Documents\Cocos\CocosProjects\print3\src\packages\mvc\ViewBase.lua -> D:\Documents\Cocos\CocosProjects\print3\simulator\win32\src\packages\mvc\ViewBase.lua
+         复制了 68 个文件
+     1>已完成生成项目“D:\Documents\Cocos\CocosProjects\print3\frameworks\runtime-src\proj.win32\print3.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.50
